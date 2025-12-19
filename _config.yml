@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : MathieuB.cv
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                       Convertis chaque tasse de café :coffee: en projet, 
+                      chaque projet en expérience, 
+                      et recharge l’expérience avec encore plus de café :coffee: !
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : mathieubti/mathieub.cv      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -29,7 +29,7 @@ author:
   image             : https://static.vecteezy.com/system/resources/previews/014/554/760/non_2x/man-profile-negative-photo-anonymous-silhouette-human-head-businessman-worker-support-illustration-vector.jpg
   #behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : contact@mathieub.cv
 #  facebook          : your_username
   github            : mathieubti
 # gitlab            : your_username
@@ -76,11 +76,11 @@ analytics:
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
 buymeacoffee:
-  enabled: false
-  username: your_username
+  enabled: true
+  username: mathieub.cv
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
+  message: "Supportez un projet en m'offrant un cafée!"                    # Message to be displayed aside from the button for a few seconds.
+  description: "Supportez un projet en m'offrant un cafée!"
 
 
 ### Defaults for collections ###
