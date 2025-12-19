@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mathieub.cv – minimalist monogram logo -->
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 240 80"
+    role="img"
+    aria-labelledby="title desc"
+    width="240"
+    height="80">
+
+  <title id="title">Mathieub.cv logo</title>
+  <desc id="desc">Monogram combining the letters M and B with the suffix .cv, in a sleek gradient style.</desc>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d6efd"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Letter M (left half) -->
+  <path
+    d="M20,70 L20,20 L35,45 L50,20 L50,70"
+    fill="none"
+    stroke="url(#gradBlue)"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Letter B (right half) – created by two stacked arcs -->
+  <path
+    d="
+      M70,20
+      L70,70
+      M70,20
+      C95,20 95,45 70,45
+      M70,45
+      C95,45 95,70 70,70"
+    fill="none"
+    stroke="url(#gradBlue)"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Text suffix .cv -->
+  <text
+    x="115"
+    y="58"
+    font-family="Inter, Helvetica, Arial, sans-serif"
+    font-size="32"
+    fill="#0d6efd"
+    dominant-baseline="middle">
+    .cv
+  </text>
+</svg>
