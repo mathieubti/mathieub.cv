@@ -79,8 +79,8 @@ buymeacoffee:
   enabled: true
   username: mathieub.cv
   color: "#007bff"
-  message: "Supportez un projet en m'offrant un cafée!"                    # Message to be displayed aside from the button for a few seconds.
-  description: "Supportez un projet en m'offrant un cafée!"
+  message: "Supportez un projet en m'offrant un café!"                    # Message to be displayed aside from the button for a few seconds.
+  description: "Supportez un projet en m'offrant un café!"
 
 
 ### Defaults for collections ###
